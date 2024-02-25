@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: crimson;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: royalblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.time-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.copy {
+    background-color: limegreen;
+    margin-top: 10px;
+}
+
+#output {
+    margin-top: 20px;
+    word-wrap: break-word;
+    color: white;
+}
+
+#output a {
+    margin-top: 20px;
+    word-wrap: break-word;
+    color: white;
+    
+
+}

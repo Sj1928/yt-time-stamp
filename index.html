@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Link with Timestamp Generator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script> <!-- Linking the JavaScript file -->
+</head>
+<body>
+    <div class="container">
+        <h2>Youtube Link with Timestamp Generator</h2>
+        <h3>Enter the link of YouTube video</h3>
+        <input type="text" id="youtubeLink" placeholder="YouTube Video Link">
+        <div class="time-inputs">
+            <input type="number" id="minutesInput" placeholder="Minutes">
+            <input type="number" id="secondsInput" placeholder="Seconds">
+        </div>
+        <button onclick="generateLink()">Generate</button>
+        <div id="output"></div>
+        <button class="copy" onclick="copyToClipboard()">Copy</button>
+    </div>
+</body>
+</html>
